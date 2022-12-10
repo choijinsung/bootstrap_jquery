@@ -1,0 +1,95 @@
+body {
+    background: rgb(135, 80, 59);
+    font-family: "Lato", sans-serif;
+}
+
+.blurb h2 {
+   color: #fff;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(199, 182, 164);
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(199, 182, 164);
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+
+.navbar.scrolled {
+    background: rgba(96, 77, 62);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-family: "Noto Sans KR";
+        font-weight: 100;
+        font-size: 2rem;
+        line-height: 1.5;
+        text-align: right;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+    .blurb p {
+        font-family: "Noto Sans KR";
+        color: rgb(199, 182, 164);
+        font-weight: 100;
+        font-size: 1.125rem;
+        line-height: 2;
+        word-break: keep-all;
+    }
+    #outro h1 {
+        font-family: "Noto Sans KR";
+        font-weight: 100;
+        font-size: 2rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+
+.position-right {
+    margin: 100px 0 0 50px;
+}
+
+.position-left {
+    margin: 100px 0 0 100px;
+}
+
+.img-fluid {
+    border-radius: 10px;
+}
