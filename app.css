@@ -10,10 +10,12 @@ body {
 }
 
 .blurb p {
+    font-family: "Noto Sans KR";
     color: rgb(199, 182, 164);
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
+    word-break: keep-all;
 }
 
 .content {
@@ -40,8 +42,12 @@ body {
 }
 
 #headingGroup h1 {
+    font-family: "Noto Sans KR";
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: right;
+    word-break: keep-all;
 }
 
 
