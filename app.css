@@ -10,7 +10,7 @@ body {
 }
 
 .blurb p {
-    color: #f498b8;
+    color: rgb(199, 182, 164);
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
@@ -39,10 +39,6 @@ body {
     font-size: 1.5rem;
 }
 
-#headingGroup span {
-    color: #EA1C2C;
-}
-
 #headingGroup h1 {
     font-weight: 100;
     font-size: 3rem;
@@ -61,6 +57,7 @@ body {
         font-size: 2rem;
         line-height: 1.5;
         text-align: right;
+        word-break: keep-all;
     }
     .blurb h2 {
         font-size: 2rem;
